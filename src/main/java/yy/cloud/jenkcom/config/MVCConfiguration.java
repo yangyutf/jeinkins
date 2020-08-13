@@ -18,4 +18,5 @@ public class MVCConfiguration extends WebMvcConfigurerAdapter {
         super.addViewControllers(registry);
 
     }
+
 }
