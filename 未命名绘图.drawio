@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-13T06:41:23.625Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" version="20.6.2" etag="mS9FkcpDzdYPbnyLRABq" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-13T07:01:27.962Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" version="20.6.2" etag="dz-Fslyu2WLVELgoiyww" type="github">
   <diagram id="yzHeddL_DBlANv4IieoY" name="第 1 页">
     <mxGraphModel dx="1038" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -34,7 +34,7 @@
         <mxCell id="uRogulFYkQpIBmfeQ4px-9" value="1.线下就医" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="230" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="uRogulFYkQpIBmfeQ4px-10" value="2.医生开处方" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="uRogulFYkQpIBmfeQ4px-10" value="2.医生选择处方类型" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="290" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="uRogulFYkQpIBmfeQ4px-11" value="医保处方" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -90,6 +90,105 @@
         </mxCell>
         <mxCell id="uRogulFYkQpIBmfeQ4px-25" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;第二种方案&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="120" y="520" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uRogulFYkQpIBmfeQ4px-26" value="医院" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="156" y="560" width="494" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uRogulFYkQpIBmfeQ4px-27" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="76" y="670" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uRogulFYkQpIBmfeQ4px-28" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="uRogulFYkQpIBmfeQ4px-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="156" y="920" as="sourcePoint" />
+            <mxPoint x="176" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uRogulFYkQpIBmfeQ4px-29" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="910" as="sourcePoint" />
+            <mxPoint x="650" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uRogulFYkQpIBmfeQ4px-30" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="116" y="700" as="sourcePoint" />
+            <mxPoint x="210" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uRogulFYkQpIBmfeQ4px-31" value="1.线下就医" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uRogulFYkQpIBmfeQ4px-32" value="2.医生开处方" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="730" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uRogulFYkQpIBmfeQ4px-35" value="医保处方中心" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="560" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uRogulFYkQpIBmfeQ4px-36" value="瑞斯云自费处方中心" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="560" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uRogulFYkQpIBmfeQ4px-37" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="810" y="910" as="sourcePoint" />
+            <mxPoint x="810" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uRogulFYkQpIBmfeQ4px-38" value="医保处方中心" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uRogulFYkQpIBmfeQ4px-40" value="审方中心" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uRogulFYkQpIBmfeQ4px-41" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="970" y="920" as="sourcePoint" />
+            <mxPoint x="970" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uRogulFYkQpIBmfeQ4px-43" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="156" y="920" as="sourcePoint" />
+            <mxPoint x="826" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uRogulFYkQpIBmfeQ4px-44" value="自费处方中心" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uRogulFYkQpIBmfeQ4px-45" value="3.开方中心（判断是医保还是自费）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="730" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uRogulFYkQpIBmfeQ4px-46" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="uRogulFYkQpIBmfeQ4px-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="840" as="sourcePoint" />
+            <mxPoint x="370" y="755" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uRogulFYkQpIBmfeQ4px-47" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;exitX=0.427;exitY=-0.048;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="uRogulFYkQpIBmfeQ4px-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="740" as="sourcePoint" />
+            <mxPoint x="440" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uRogulFYkQpIBmfeQ4px-48" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;引用瑞斯云药品目录（包含医保目录,自费目录）&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="400" y="620" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uRogulFYkQpIBmfeQ4px-49" value="医保处方" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="730" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uRogulFYkQpIBmfeQ4px-50" value="自费处方" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="770" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uRogulFYkQpIBmfeQ4px-51" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="750" as="sourcePoint" />
+            <mxPoint x="670" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uRogulFYkQpIBmfeQ4px-52" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uRogulFYkQpIBmfeQ4px-50" target="uRogulFYkQpIBmfeQ4px-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="870" as="sourcePoint" />
+            <mxPoint x="750" y="820" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
